@@ -1,4 +1,4 @@
-import reflex as rx
+import reflex as rx # type: ignore
 from enum import Enum
 from .colores import Color
 from .colores import TexColor

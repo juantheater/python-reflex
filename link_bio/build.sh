@@ -1,6 +1,7 @@
-source venv/bin/activate
+source .venv/bin/activate
 pip install --upgrade pip
 install -r requirements.txt
+rm -rf public
 reflex init
 reflex export --frontend-only
 unzip frontend.zip -d public
